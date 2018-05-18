@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Henry's Minion Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Skranji', cursive;
+        background-color: #F5E743;
+      }
+
+      .animated {
+        margin: 20px;
+        background: #f00;
+        animation: spin 4s, jump 2s, infinite;
+      }
+
+      @keyframes spin {
+        0%  {-webkit-transform: rotate(0deg);}
+        100% {-webkit-transform: rotate(360deg);}
+      }
+
+      @keyframes jump {
+        0%   {transform: translate3d(0,0,0) scale3d(1,1,1);}
+        40%  {transform: translate3d(0,30%,0) scale3d(.7,1.5,1);}
+        100% {transform: translate3d(0,100%,0) scale3d(1.5,.7,1);}
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Henry's Minion Site</h1>
+    <h2>It's Minion Time!</h2>
+    <p>There are four movies. minions dont have noses</p>
+    <ul>
+      <li>Despicable Me</li>
+      <li>Despicable Me 2</li>
+      <li>Despicable Me 3</li>
+      <li>Minions</li>
+    </ul>
+    <marquee behavior="" direction="">BOCALA</marquee>
+    <img src="http://howtodrawdat.com/wp-content/uploads/2014/01/1st-pic-Dave-Minion-from-despicable-me.png" alt="" class="animated">
+  </body>
+</html>
